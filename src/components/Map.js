@@ -81,7 +81,7 @@ function Map(props) {
         apiSwitch.current = 1;
       }
       else {
-        apiKey = process.env.REACT_APP_OWM_API_KEY1;
+        apiKey = process.env.REACT_APP_OWM_API_KEY2;
         apiSwitch.current = 0;
       }
       var config = {
